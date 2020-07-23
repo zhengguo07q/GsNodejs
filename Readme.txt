@@ -55,3 +55,5 @@ Handler.prototype.dissolutionGuildInfo = function (msg, session, next) {
 
 关于Callback的问题。
 cb是nodejs存在的基础， 无阻塞依赖于此， 而且我们大量的技巧编程也依赖于此， 我的意见是，在核心框架层可以大量使用，用来实现一些比较麻烦， 复杂多变的业务应用。但是在业务层应该尽量屏蔽掉，以减少开发人员带来的压力。  
+
+s
